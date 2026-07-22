@@ -1,0 +1,26 @@
+[1.349s] Invoking command in '/home/boyfriend51/gong/gong_ws/build/gong_basic': PYTHONPATH=/home/boyfriend51/gong/gong_ws/build/gong_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/boyfriend51/gong/gong_ws/build/gong_basic/build --no-deps symlink_data
+[1.716s] running develop
+[1.969s] running egg_info
+[2.000s] writing gong_basic.egg-info/PKG-INFO
+[2.001s] writing dependency_links to gong_basic.egg-info/dependency_links.txt
+[2.002s] writing entry points to gong_basic.egg-info/entry_points.txt
+[2.002s] writing requirements to gong_basic.egg-info/requires.txt
+[2.003s] writing top-level names to gong_basic.egg-info/top_level.txt
+[2.059s] reading manifest file 'gong_basic.egg-info/SOURCES.txt'
+[2.060s] writing manifest file 'gong_basic.egg-info/SOURCES.txt'
+[2.082s] running build_ext
+[2.082s] Creating /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong-basic.egg-link (link to .)
+[2.083s] Installing class_pub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.083s] Installing class_sub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.083s] Installing header_pub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.084s] Installing m1_sub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.084s] Installing m2_sub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.084s] Installing mpub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.084s] Installing mt_sub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.085s] Installing mv_turtle script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.085s] Installing simple_pub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.085s] Installing tpub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.085s] 
+[2.086s] Installed /home/boyfriend51/gong/gong_ws/build/gong_basic
+[2.086s] running symlink_data
+[2.123s] Invoked command in '/home/boyfriend51/gong/gong_ws/build/gong_basic' returned '0': PYTHONPATH=/home/boyfriend51/gong/gong_ws/build/gong_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/boyfriend51/gong/gong_ws/build/gong_basic/build --no-deps symlink_data

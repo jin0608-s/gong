@@ -1,0 +1,13 @@
+[console_scripts]
+class_pub = gong_basic.class_pub:main
+class_sub = gong_basic.class_sub:main
+header_pub = gong_basic.header_pub:main
+m1_sub = gong_basic.m1_sub:main
+m2_sub = gong_basic.m2_sub:main
+mpub = gong_basic.mpub:main
+mt_sub = gong_basic.mt_sub:main
+mv_turtle = gong_basic.mv_turtle:main
+qos_test_pub = gong_basic.qos_test_pub:main
+qos_test_sub = gong_basic.qos_test_sub:main
+simple_pub = gong_basic.simple_pub:main
+tpub = gong_basic.tpub:main

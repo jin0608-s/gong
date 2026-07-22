@@ -1,0 +1,60 @@
+[1.061s] Invoking command in '/home/boyfriend51/gong/gong_ws/build/gong_basic': PYTHONPATH=/home/boyfriend51/gong/gong_ws/build/gong_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/boyfriend51/gong/gong_ws/build/gong_basic/build
+[1.463s] running develop
+[1.691s] Removing /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong-basic.egg-link (link to .)
+[1.756s] Invoked command in '/home/boyfriend51/gong/gong_ws/build/gong_basic' returned '0': PYTHONPATH=/home/boyfriend51/gong/gong_ws/build/gong_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/boyfriend51/gong/gong_ws/build/gong_basic/build
+[1.758s] Invoking command in '/home/boyfriend51/gong/gong_ws/src/gong_basic': PYTHONPATH=/home/boyfriend51/gong/gong_ws/build/gong_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gong_basic build --build-base /home/boyfriend51/gong/gong_ws/build/gong_basic/build install --record /home/boyfriend51/gong/gong_ws/build/gong_basic/install.log --install-scripts $base/lib/gong_basic --single-version-externally-managed install_data --force
+[2.184s] running egg_info
+[2.219s] writing ../../build/gong_basic/gong_basic.egg-info/PKG-INFO
+[2.220s] writing dependency_links to ../../build/gong_basic/gong_basic.egg-info/dependency_links.txt
+[2.221s] writing entry points to ../../build/gong_basic/gong_basic.egg-info/entry_points.txt
+[2.221s] writing requirements to ../../build/gong_basic/gong_basic.egg-info/requires.txt
+[2.223s] writing top-level names to ../../build/gong_basic/gong_basic.egg-info/top_level.txt
+[2.286s] reading manifest file '../../build/gong_basic/gong_basic.egg-info/SOURCES.txt'
+[2.287s] writing manifest file '../../build/gong_basic/gong_basic.egg-info/SOURCES.txt'
+[2.287s] running build
+[2.287s] running build_py
+[2.288s] copying gong_basic/mv_turtle.py -> /home/boyfriend51/gong/gong_ws/build/gong_basic/build/lib/gong_basic
+[2.288s] running install
+[2.296s] running install_lib
+[2.325s] creating /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic
+[2.326s] copying /home/boyfriend51/gong/gong_ws/build/gong_basic/build/lib/gong_basic/mv_turtle.py -> /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic
+[2.326s] copying /home/boyfriend51/gong/gong_ws/build/gong_basic/build/lib/gong_basic/simple_pub.py -> /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic
+[2.327s] copying /home/boyfriend51/gong/gong_ws/build/gong_basic/build/lib/gong_basic/m2_sub.py -> /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic
+[2.327s] copying /home/boyfriend51/gong/gong_ws/build/gong_basic/build/lib/gong_basic/class_sub.py -> /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic
+[2.327s] copying /home/boyfriend51/gong/gong_ws/build/gong_basic/build/lib/gong_basic/mt_sub.py -> /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic
+[2.327s] copying /home/boyfriend51/gong/gong_ws/build/gong_basic/build/lib/gong_basic/mpub.py -> /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic
+[2.328s] copying /home/boyfriend51/gong/gong_ws/build/gong_basic/build/lib/gong_basic/m1_sub.py -> /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic
+[2.328s] copying /home/boyfriend51/gong/gong_ws/build/gong_basic/build/lib/gong_basic/tpub.py -> /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic
+[2.328s] copying /home/boyfriend51/gong/gong_ws/build/gong_basic/build/lib/gong_basic/__init__.py -> /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic
+[2.329s] copying /home/boyfriend51/gong/gong_ws/build/gong_basic/build/lib/gong_basic/header_pub.py -> /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic
+[2.329s] copying /home/boyfriend51/gong/gong_ws/build/gong_basic/build/lib/gong_basic/class_pub.py -> /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic
+[2.329s] byte-compiling /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic/mv_turtle.py to mv_turtle.cpython-312.pyc
+[2.331s] byte-compiling /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic/simple_pub.py to simple_pub.cpython-312.pyc
+[2.332s] byte-compiling /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic/m2_sub.py to m2_sub.cpython-312.pyc
+[2.333s] byte-compiling /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic/class_sub.py to class_sub.cpython-312.pyc
+[2.334s] byte-compiling /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic/mt_sub.py to mt_sub.cpython-312.pyc
+[2.335s] byte-compiling /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic/mpub.py to mpub.cpython-312.pyc
+[2.337s] byte-compiling /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic/m1_sub.py to m1_sub.cpython-312.pyc
+[2.338s] byte-compiling /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic/tpub.py to tpub.cpython-312.pyc
+[2.340s] byte-compiling /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic/__init__.py to __init__.cpython-312.pyc
+[2.340s] byte-compiling /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic/header_pub.py to header_pub.cpython-312.pyc
+[2.342s] byte-compiling /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic/class_pub.py to class_pub.cpython-312.pyc
+[2.343s] running install_data
+[2.344s] copying resource/gong_basic -> /home/boyfriend51/gong/gong_ws/install/gong_basic/share/ament_index/resource_index/packages
+[2.344s] copying package.xml -> /home/boyfriend51/gong/gong_ws/install/gong_basic/share/gong_basic
+[2.344s] copying launch/hello.launch.py -> /home/boyfriend51/gong/gong_ws/install/gong_basic/share/gong_basic/launch
+[2.345s] running install_egg_info
+[2.371s] Copying ../../build/gong_basic/gong_basic.egg-info to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages/gong_basic-0.0.0-py3.12.egg-info
+[2.373s] running install_scripts
+[2.552s] Installing class_pub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.552s] Installing class_sub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.553s] Installing header_pub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.553s] Installing m1_sub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.554s] Installing m2_sub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.554s] Installing mpub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.555s] Installing mt_sub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.555s] Installing mv_turtle script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.556s] Installing simple_pub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.556s] Installing tpub script to /home/boyfriend51/gong/gong_ws/install/gong_basic/lib/gong_basic
+[2.558s] writing list of installed files to '/home/boyfriend51/gong/gong_ws/build/gong_basic/install.log'
+[2.619s] Invoked command in '/home/boyfriend51/gong/gong_ws/src/gong_basic' returned '0': PYTHONPATH=/home/boyfriend51/gong/gong_ws/build/gong_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gong_basic build --build-base /home/boyfriend51/gong/gong_ws/build/gong_basic/build install --record /home/boyfriend51/gong/gong_ws/build/gong_basic/install.log --install-scripts $base/lib/gong_basic --single-version-externally-managed install_data --force

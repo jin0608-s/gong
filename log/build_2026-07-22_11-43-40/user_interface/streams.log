@@ -1,0 +1,230 @@
+[0.309s] Invoking command in '/home/boyfriend51/gong/gong_ws/build/user_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boyfriend51/gong/gong_ws/install/gong_basic:/opt/ros/jazzy /usr/bin/cmake /home/boyfriend51/gong/gong_ws/user_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/boyfriend51/gong/gong_ws/install/user_interface
+[0.324s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.641s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.650s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.652s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.928s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.971s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.817s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.361s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.101s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.105s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.278s] -- Found PythonExtra: /usr/bin/python3  
+[3.853s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.946s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.951s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.973s] -- Configuring done (3.7s)
+[4.039s] -- Generating done (0.1s)
+[4.054s] -- Build files have been written to: /home/boyfriend51/gong/gong_ws/build/user_interface
+[4.064s] Invoked command in '/home/boyfriend51/gong/gong_ws/build/user_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boyfriend51/gong/gong_ws/install/gong_basic:/opt/ros/jazzy /usr/bin/cmake /home/boyfriend51/gong/gong_ws/user_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/boyfriend51/gong/gong_ws/install/user_interface
+[4.066s] Invoking command in '/home/boyfriend51/gong/gong_ws/build/user_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boyfriend51/gong/gong_ws/install/gong_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/boyfriend51/gong/gong_ws/build/user_interface -- -j8 -l8
+[4.118s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.121s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[4.132s] [  4%] Built target ament_cmake_python_symlink_user_interface
+[4.479s] [  4%] Built target user_interface__rosidl_generator_type_description
+[4.496s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.513s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.547s] running egg_info
+[4.548s] creating user_interface.egg-info
+[4.555s] [  8%] Built target user_interface__rs
+[4.576s] writing user_interface.egg-info/PKG-INFO
+[4.577s] writing dependency_links to user_interface.egg-info/dependency_links.txt
+[4.577s] writing top-level names to user_interface.egg-info/top_level.txt
+[4.579s] writing manifest file 'user_interface.egg-info/SOURCES.txt'
+[4.683s] reading manifest file 'user_interface.egg-info/SOURCES.txt'
+[4.684s] writing manifest file 'user_interface.egg-info/SOURCES.txt'
+[4.752s] [  8%] Built target ament_cmake_python_build_user_interface_egg
+[5.027s] [  8%] Built target user_interface__cpp
+[5.085s] [ 13%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/msg/detail/user_int__functions.c.o[0m
+[5.086s] [ 13%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/msg/detail/user_int__description.c.o[0m
+[5.087s] [ 17%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/srv/detail/add_and_odd__description.c.o[0m
+[5.088s] [ 17%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/msg/detail/user_int__type_support.c.o[0m
+[5.089s] [ 20%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/srv/detail/add_and_odd__functions.c.o[0m
+[5.091s] [ 22%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/srv/detail/add_and_odd__type_support.c.o[0m
+[5.234s] [ 24%] [32m[1mLinking C shared library libuser_interface__rosidl_generator_c.so[0m
+[5.375s] [ 24%] Built target user_interface__rosidl_generator_c
+[5.387s] [ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.387s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.388s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.388s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.390s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.391s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.971s] [ 40%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/user_interface/srv/add_and_odd__type_support.cpp.o[0m
+[5.971s] [ 42%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/user_interface/msg/user_int__type_support.cpp.o[0m
+[6.004s] [ 44%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/user_interface/msg/user_int__type_support.cpp.o[0m
+[6.010s] [ 46%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/user_interface/srv/add_and_odd__type_support.cpp.o[0m
+[6.145s] [ 51%] [32m[1mLinking CXX shared library libuser_interface__rosidl_typesupport_c.so[0m
+[6.145s] [ 51%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/user_interface/msg/detail/user_int__type_support.cpp.o[0m
+[6.147s] [ 53%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/user_interface/srv/detail/add_and_odd__type_support.cpp.o[0m
+[6.161s] [ 55%] [32mBuilding C object CMakeFiles/user_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/user_interface/msg/detail/user_int__type_support.c.o[0m
+[6.252s] [ 57%] [32mBuilding C object CMakeFiles/user_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/user_interface/srv/detail/add_and_odd__type_support.c.o[0m
+[6.291s] [ 60%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/user_interface/msg/detail/dds_fastrtps/user_int__type_support.cpp.o[0m
+[6.349s] [ 62%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/user_interface/msg/detail/user_int__type_support_c.cpp.o[0m
+[6.396s] [ 64%] [32m[1mLinking C shared library libuser_interface__rosidl_typesupport_introspection_c.so[0m
+[6.615s] [ 64%] Built target user_interface__rosidl_typesupport_c
+[6.647s] [ 66%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/user_interface/srv/detail/add_and_odd__type_support_c.cpp.o[0m
+[6.796s] [ 66%] Built target user_interface__rosidl_typesupport_introspection_c
+[6.818s] [ 68%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/user_interface/srv/detail/dds_fastrtps/add_and_odd__type_support.cpp.o[0m
+[7.382s] [ 71%] [32m[1mLinking CXX shared library libuser_interface__rosidl_typesupport_cpp.so[0m
+[7.498s] [ 73%] [32m[1mLinking CXX shared library libuser_interface__rosidl_typesupport_introspection_cpp.so[0m
+[7.717s] [ 73%] Built target user_interface__rosidl_typesupport_cpp
+[7.784s] [ 73%] Built target user_interface__rosidl_typesupport_introspection_cpp
+[7.948s] [ 75%] [32m[1mLinking CXX shared library libuser_interface__rosidl_typesupport_fastrtps_c.so[0m
+[8.191s] [ 75%] Built target user_interface__rosidl_typesupport_fastrtps_c
+[8.276s] [ 77%] [32m[1mLinking CXX shared library libuser_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.508s] [ 77%] Built target user_interface__rosidl_typesupport_fastrtps_cpp
+[8.529s] [ 77%] Built target user_interface
+[8.552s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.060s] [ 80%] Built target user_interface__py
+[9.085s] [ 84%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/srv/_add_and_odd_s.c.o[0m
+[9.085s] [ 84%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/msg/_user_int_s.c.o[0m
+[9.390s] [ 86%] [32m[1mLinking C shared library libuser_interface__rosidl_generator_py.so[0m
+[9.533s] [ 86%] Built target user_interface__rosidl_generator_py
+[9.559s] [ 91%] [32mBuilding C object CMakeFiles/user_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.559s] [ 91%] [32mBuilding C object CMakeFiles/user_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.563s] [ 93%] [32mBuilding C object CMakeFiles/user_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[9.706s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/user_interface/user_interface_s__rosidl_typesupport_fastrtps_c.so[0m
+[9.713s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/user_interface/user_interface_s__rosidl_typesupport_introspection_c.so[0m
+[9.718s] [100%] [32m[1mLinking C shared module rosidl_generator_py/user_interface/user_interface_s__rosidl_typesupport_c.so[0m
+[9.824s] [100%] Built target user_interface_s__rosidl_typesupport_introspection_c
+[9.826s] [100%] Built target user_interface_s__rosidl_typesupport_c
+[9.828s] [100%] Built target user_interface_s__rosidl_typesupport_fastrtps_c
+[9.844s] Invoked command in '/home/boyfriend51/gong/gong_ws/build/user_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boyfriend51/gong/gong_ws/install/gong_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/boyfriend51/gong/gong_ws/build/user_interface -- -j8 -l8
+[9.861s] Invoking command in '/home/boyfriend51/gong/gong_ws/build/user_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boyfriend51/gong/gong_ws/install/gong_basic:/opt/ros/jazzy /usr/bin/cmake --install /home/boyfriend51/gong/gong_ws/build/user_interface
+[9.871s] -- Install configuration: ""
+[9.871s] -- Execute custom install script
+[9.874s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/ament_index/resource_index/rosidl_interfaces/user_interface
+[9.885s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/msg/UserInt.json
+[9.896s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/srv/AddAndOdd.json
+[9.909s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__functions.h
+[9.919s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__struct.h
+[9.929s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__type_support.h
+[9.940s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/rosidl_generator_c__visibility_control.h
+[9.955s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/user_int.h
+[9.969s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/srv/add_and_odd.h
+[9.986s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__functions.h
+[9.997s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__struct.h
+[10.010s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__type_support.h
+[10.022s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/environment/library_path.sh
+[10.035s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/environment/library_path.dsv
+[10.048s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__rosidl_typesupport_fastrtps_c.h
+[10.058s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.068s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__rosidl_typesupport_fastrtps_c.h
+[10.078s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__rosidl_typesupport_introspection_c.h
+[10.088s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.098s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__rosidl_typesupport_introspection_c.h
+[10.107s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__builder.hpp
+[10.117s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__struct.hpp
+[10.127s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__traits.hpp
+[10.137s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__type_support.hpp
+[10.151s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.166s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/user_int.hpp
+[10.179s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/srv/add_and_odd.hpp
+[10.191s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__builder.hpp
+[10.204s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__struct.hpp
+[10.218s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__traits.hpp
+[10.229s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__type_support.hpp
+[10.241s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__rosidl_typesupport_fastrtps_cpp.hpp
+[10.253s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.263s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__rosidl_typesupport_fastrtps_cpp.hpp
+[10.273s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__rosidl_typesupport_introspection_cpp.hpp
+[10.283s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__rosidl_typesupport_introspection_cpp.hpp
+[10.293s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/environment/pythonpath.sh
+[10.303s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/environment/pythonpath.dsv
+[10.313s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface-0.0.0-py3.12.egg-info/PKG-INFO
+[10.322s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface-0.0.0-py3.12.egg-info/SOURCES.txt
+[10.331s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface-0.0.0-py3.12.egg-info/dependency_links.txt
+[10.341s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface-0.0.0-py3.12.egg-info/top_level.txt
+[10.353s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/__init__.py
+[10.364s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/_user_interface_s.ep.rosidl_typesupport_c.c
+[10.373s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.383s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/_user_interface_s.ep.rosidl_typesupport_introspection_c.c
+[10.393s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/msg/__init__.py
+[10.402s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/msg/_user_int.py
+[10.411s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/msg/_user_int_s.c
+[10.421s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/srv/__init__.py
+[10.430s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/srv/_add_and_odd.py
+[10.439s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/srv/_add_and_odd_s.c
+[10.450s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/user_interface_s__rosidl_typesupport_c.so
+[10.461s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/user_interface_s__rosidl_typesupport_fastrtps_c.so
+[10.471s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/user_interface_s__rosidl_typesupport_introspection_c.so
+[10.481s] -- Up-to-date symlink: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/user_interface_s__rosidl_typesupport_fastrtps_c.so
+[10.481s] -- Up-to-date symlink: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/user_interface_s__rosidl_typesupport_introspection_c.so
+[10.482s] -- Up-to-date symlink: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/user_interface_s__rosidl_typesupport_c.so
+[10.483s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/ament_index/resource_index/rust_packages/user_interface
+[10.493s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/rust/Cargo.toml
+[10.502s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/rust/build.rs
+[10.512s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/rust/src/lib.rs
+[10.521s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/rust/src/msg.rs
+[10.530s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/rust/src/msg/rmw.rs
+[10.539s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/rust/src/srv.rs
+[10.549s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/rust/src/srv/rmw.rs
+[10.561s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/msg/UserInt.idl
+[10.569s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/srv/AddAndOdd.idl
+[10.579s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/msg/UserInt.msg
+[10.588s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/srv/AddAndOdd.srv
+[10.599s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/ament_index/resource_index/package_run_dependencies/user_interface
+[10.610s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/ament_index/resource_index/parent_prefix_path/user_interface
+[10.620s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/environment/ament_prefix_path.sh
+[10.630s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/environment/ament_prefix_path.dsv
+[10.642s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/environment/path.sh
+[10.654s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/environment/path.dsv
+[10.669s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/local_setup.bash
+[10.682s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/local_setup.sh
+[10.694s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/local_setup.zsh
+[10.705s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/local_setup.dsv
+[10.716s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/package.dsv
+[10.729s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/ament_index/resource_index/packages/user_interface
+[10.740s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/rosidl_cmake-extras.cmake
+[10.752s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.764s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.775s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[10.785s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/ament_cmake_export_targets-extras.cmake
+[10.795s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.805s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.815s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[10.824s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/user_interfaceConfig.cmake
+[10.833s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/user_interfaceConfig-version.cmake
+[10.844s] -- Symlinking: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/package.xml
+[10.853s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/libuser_interface__rosidl_generator_c.so
+[10.854s] -- Set non-toolchain portion of runtime path of "/home/boyfriend51/gong/gong_ws/install/user_interface/lib/libuser_interface__rosidl_generator_c.so" to ""
+[10.854s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_fastrtps_c.so
+[10.855s] -- Set non-toolchain portion of runtime path of "/home/boyfriend51/gong/gong_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[10.855s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_introspection_c.so
+[10.856s] -- Set non-toolchain portion of runtime path of "/home/boyfriend51/gong/gong_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_introspection_c.so" to ""
+[10.856s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_c.so
+[10.856s] -- Set non-toolchain portion of runtime path of "/home/boyfriend51/gong/gong_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_c.so" to ""
+[10.856s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_fastrtps_cpp.so
+[10.857s] -- Set non-toolchain portion of runtime path of "/home/boyfriend51/gong/gong_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.857s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_introspection_cpp.so
+[10.858s] -- Set non-toolchain portion of runtime path of "/home/boyfriend51/gong/gong_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[10.860s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_cpp.so
+[10.860s] -- Set non-toolchain portion of runtime path of "/home/boyfriend51/gong/gong_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_cpp.so" to ""
+[10.915s] Listing '/home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface'...
+[10.915s] Compiling '/home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/__init__.py'...
+[10.915s] Listing '/home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/msg'...
+[10.915s] Compiling '/home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/msg/__init__.py'...
+[10.916s] Compiling '/home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/msg/_user_int.py'...
+[10.916s] Listing '/home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/srv'...
+[10.916s] Compiling '/home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/srv/__init__.py'...
+[10.916s] Compiling '/home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages/user_interface/srv/_add_and_odd.py'...
+[10.922s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/lib/libuser_interface__rosidl_generator_py.so
+[10.922s] -- Set non-toolchain portion of runtime path of "/home/boyfriend51/gong/gong_ws/install/user_interface/lib/libuser_interface__rosidl_generator_py.so" to ""
+[10.922s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_generator_cExport.cmake
+[10.923s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_generator_cExport-noconfig.cmake
+[10.923s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[10.923s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.923s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/user_interface__rosidl_typesupport_introspection_cExport.cmake
+[10.924s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/user_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.924s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/user_interface__rosidl_typesupport_cExport.cmake
+[10.924s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/user_interface__rosidl_typesupport_cExport-noconfig.cmake
+[10.924s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_generator_cppExport.cmake
+[10.925s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.925s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.925s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/user_interface__rosidl_typesupport_introspection_cppExport.cmake
+[10.926s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/user_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.926s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/user_interface__rosidl_typesupport_cppExport.cmake
+[10.926s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/user_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[10.926s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_generator_pyExport.cmake
+[10.926s] -- Installing: /home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_generator_pyExport-noconfig.cmake
+[10.930s] Invoked command in '/home/boyfriend51/gong/gong_ws/build/user_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boyfriend51/gong/gong_ws/install/gong_basic:/opt/ros/jazzy /usr/bin/cmake --install /home/boyfriend51/gong/gong_ws/build/user_interface

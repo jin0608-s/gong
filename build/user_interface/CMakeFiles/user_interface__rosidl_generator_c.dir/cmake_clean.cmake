@@ -1,0 +1,35 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/msg/detail/user_int__description.c.o"
+  "CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/msg/detail/user_int__description.c.o.d"
+  "CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/msg/detail/user_int__functions.c.o"
+  "CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/msg/detail/user_int__functions.c.o.d"
+  "CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/msg/detail/user_int__type_support.c.o"
+  "CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/msg/detail/user_int__type_support.c.o.d"
+  "CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/srv/detail/add_and_odd__description.c.o"
+  "CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/srv/detail/add_and_odd__description.c.o.d"
+  "CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/srv/detail/add_and_odd__functions.c.o"
+  "CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/srv/detail/add_and_odd__functions.c.o.d"
+  "CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/srv/detail/add_and_odd__type_support.c.o"
+  "CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/srv/detail/add_and_odd__type_support.c.o.d"
+  "libuser_interface__rosidl_generator_c.pdb"
+  "libuser_interface__rosidl_generator_c.so"
+  "rosidl_generator_c/user_interface/msg/detail/user_int__description.c"
+  "rosidl_generator_c/user_interface/msg/detail/user_int__functions.c"
+  "rosidl_generator_c/user_interface/msg/detail/user_int__functions.h"
+  "rosidl_generator_c/user_interface/msg/detail/user_int__struct.h"
+  "rosidl_generator_c/user_interface/msg/detail/user_int__type_support.c"
+  "rosidl_generator_c/user_interface/msg/detail/user_int__type_support.h"
+  "rosidl_generator_c/user_interface/msg/user_int.h"
+  "rosidl_generator_c/user_interface/srv/add_and_odd.h"
+  "rosidl_generator_c/user_interface/srv/detail/add_and_odd__description.c"
+  "rosidl_generator_c/user_interface/srv/detail/add_and_odd__functions.c"
+  "rosidl_generator_c/user_interface/srv/detail/add_and_odd__functions.h"
+  "rosidl_generator_c/user_interface/srv/detail/add_and_odd__struct.h"
+  "rosidl_generator_c/user_interface/srv/detail/add_and_odd__type_support.c"
+  "rosidl_generator_c/user_interface/srv/detail/add_and_odd__type_support.h"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/user_interface__rosidl_generator_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

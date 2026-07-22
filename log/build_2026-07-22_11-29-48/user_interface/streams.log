@@ -1,0 +1,25 @@
+[0.279s] Invoking command in '/home/boyfriend51/gong/gong_ws/build/user_interface': /usr/bin/cmake /home/boyfriend51/gong/gong_ws/src/user_interface -DCMAKE_INSTALL_PREFIX=/home/boyfriend51/gong/gong_ws/install/user_interface
+[0.585s] -- The C compiler identification is GNU 13.3.0
+[1.443s] -- The CXX compiler identification is GNU 13.3.0
+[2.265s] -- Detecting C compiler ABI info
+[2.624s] -- Detecting C compiler ABI info - done
+[2.635s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.636s] -- Detecting C compile features
+[2.638s] -- Detecting C compile features - done
+[2.771s] -- Detecting CXX compiler ABI info
+[3.081s] -- Detecting CXX compiler ABI info - done
+[3.090s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.091s] -- Detecting CXX compile features
+[3.091s] -- Detecting CXX compile features - done
+[3.120s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.296s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.506s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.529s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.860s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.948s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.954s] [31mCMake Error at CMakeLists.txt:12 (rosidl_generate_interface):
+[3.954s]   Unknown CMake command "rosidl_generate_interface".
+[3.954s] 
+[3.954s] [0m
+[3.954s] -- Configuring incomplete, errors occurred!
+[3.962s] Invoked command in '/home/boyfriend51/gong/gong_ws/build/user_interface' returned '1': /usr/bin/cmake /home/boyfriend51/gong/gong_ws/src/user_interface -DCMAKE_INSTALL_PREFIX=/home/boyfriend51/gong/gong_ws/install/user_interface

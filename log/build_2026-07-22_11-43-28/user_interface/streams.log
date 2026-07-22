@@ -1,0 +1,54 @@
+[0.292s] Invoking command in '/home/boyfriend51/gong/gong_ws/build/user_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boyfriend51/gong/gong_ws/install/gong_basic:/opt/ros/jazzy /usr/bin/cmake /home/boyfriend51/gong/gong_ws/user_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/boyfriend51/gong/gong_ws/install/user_interface
+[0.309s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.633s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.646s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.650s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.934s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.969s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.300s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[1.300s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.301s]   user_interface --arguments-file
+[1.301s]   /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_adapter__arguments__user_interface.json
+[1.301s]   --output-dir
+[1.301s]   /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_adapter/user_interface
+[1.302s]   --output-file
+[1.302s]   /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_adapter/user_interface.idls)
+[1.302s]   returned error code 1:
+[1.302s] 
+[1.302s]   Error processing 'int 32 user_int' of 'user_interface/UserInt': ''int' is
+[1.302s]   an invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[1.303s] 
+[1.303s]   Traceback (most recent call last):
+[1.303s] 
+[1.303s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[1.303s]     File "<frozen runpy>", line 88, in _run_code
+[1.304s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.304s]       sys.exit(main())
+[1.304s]                ^^^^^^
+[1.304s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.304s]       abs_idl_file = convert_to_idl(
+[1.304s]                      ^^^^^^^^^^^^^^^
+[1.305s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.305s]       return convert_msg_to_idl(
+[1.305s]              ^^^^^^^^^^^^^^^^^^^
+[1.305s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.306s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.306s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.306s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 521, in parse_message_string
+[1.306s]       Type(type_string, context_package_name=pkg_name),
+[1.307s]       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.307s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 278, in __init__
+[1.308s]       super(Type, self).__init__(
+[1.309s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 206, in __init__
+[1.309s]       raise InvalidResourceName(
+[1.309s] 
+[1.309s]   rosidl_adapter.parser.InvalidResourceName: 'int' is an invalid message
+[1.310s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[1.310s] 
+[1.311s] Call Stack (most recent call first):
+[1.311s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[1.311s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[1.312s] 
+[1.313s] [0m
+[1.316s] -- Configuring incomplete, errors occurred!
+[1.317s] Invoked command in '/home/boyfriend51/gong/gong_ws/build/user_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boyfriend51/gong/gong_ws/install/gong_basic:/opt/ros/jazzy /usr/bin/cmake /home/boyfriend51/gong/gong_ws/user_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/boyfriend51/gong/gong_ws/install/user_interface
