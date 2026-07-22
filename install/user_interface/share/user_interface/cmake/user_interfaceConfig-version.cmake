@@ -1,1 +1,0 @@
-/home/boyfriend51/gong/gong_ws/build/user_interface/ament_cmake_core/user_interfaceConfig-version.cmake

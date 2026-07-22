@@ -10,6 +10,8 @@ gong_basic/m2_sub.py
 gong_basic/mpub.py
 gong_basic/mt_sub.py
 gong_basic/mv_turtle.py
+gong_basic/my_param.py
+gong_basic/param_async.py
 gong_basic/qos_test_pub.py
 gong_basic/qos_test_sub.py
 gong_basic/service_client.py
@@ -27,4 +29,7 @@ gong_basic.egg-info/top_level.txt
 gong_basic.egg-info/zip-safe
 launch/hello.launch.py
 launch/mtsubpub.launch.py
+launch/param.launch.py
+param/my_param.yaml
+param/my_param2.yaml
 resource/gong_basic

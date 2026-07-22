@@ -1,1 +1,0 @@
-/home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/srv/detail/add_and_odd__functions.h

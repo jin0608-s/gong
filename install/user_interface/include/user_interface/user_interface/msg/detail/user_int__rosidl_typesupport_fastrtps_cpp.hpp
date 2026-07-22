@@ -1,1 +1,0 @@
-/home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_typesupport_fastrtps_cpp/user_interface/msg/detail/user_int__rosidl_typesupport_fastrtps_cpp.hpp

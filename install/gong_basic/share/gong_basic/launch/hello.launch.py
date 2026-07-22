@@ -1,1 +1,0 @@
-/home/boyfriend51/gong/gong_ws/build/gong_basic/launch/hello.launch.py
