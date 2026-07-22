@@ -73,4 +73,12 @@ CMakeFiles/user_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesup
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/msg/rosidl_generator_c__visibility_control.h \
- /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/msg/detail/user_int__struct.h
+ /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/msg/detail/user_int__struct.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/header.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__functions.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__type_support.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__rosidl_typesupport_introspection_c.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

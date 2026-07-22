@@ -59,13 +59,29 @@ private:
 class Init_UserInt_user_int
 {
 public:
-  Init_UserInt_user_int()
-  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  explicit Init_UserInt_user_int(::user_interface::msg::UserInt & msg)
+  : msg_(msg)
   {}
   Init_UserInt_user_int2 user_int(::user_interface::msg::UserInt::_user_int_type arg)
   {
     msg_.user_int = std::move(arg);
     return Init_UserInt_user_int2(msg_);
+  }
+
+private:
+  ::user_interface::msg::UserInt msg_;
+};
+
+class Init_UserInt_header
+{
+public:
+  Init_UserInt_header()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  {}
+  Init_UserInt_user_int header(::user_interface::msg::UserInt::_header_type arg)
+  {
+    msg_.header = std::move(arg);
+    return Init_UserInt_user_int(msg_);
   }
 
 private:
@@ -83,7 +99,7 @@ template<>
 inline
 auto build<::user_interface::msg::UserInt>()
 {
-  return user_interface::msg::builder::Init_UserInt_user_int();
+  return user_interface::msg::builder::Init_UserInt_header();
 }
 
 }  // namespace user_interface

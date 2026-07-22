@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-13858d4aa8b31e713580.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "user_interface__py",
+					"jsonFile" : "directory-user_interface__py-c28275f14db36e8d212b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/boyfriend51/gong/gong_ws/build/user_interface/user_interface__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "user_interface__rs",
+					"jsonFile" : "directory-user_interface__rs-532198cf7148cfc3c694.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/boyfriend51/gong/gong_ws/build/user_interface/user_interface__rs",
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "user_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_user_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_user_interface_egg-2bd36a787727a6cb355f.json",
+					"name" : "ament_cmake_python_build_user_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_user_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_user_interface-ab9974f169f748c46ddb.json",
+					"name" : "ament_cmake_python_symlink_user_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4c06f4365f09ab560ff0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface-b205ad9ed32e633953e1.json",
+					"name" : "user_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__cpp-00b45c84d741b1925265.json",
+					"name" : "user_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "user_interface__py::@ece25ec7116cb1ca37ca",
+					"jsonFile" : "target-user_interface__py-4437465640465b12ec4e.json",
+					"name" : "user_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_generator_c-39c451f3665dd9cde5bf.json",
+					"name" : "user_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_generator_py-3a88d659db1fe7f20e17.json",
+					"name" : "user_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_generator_type_description-829708b8cf06311e58f0.json",
+					"name" : "user_interface__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_typesupport_c-7990f853da2b79b27d76.json",
+					"name" : "user_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_typesupport_cpp-5c5e49679949ea0d6144.json",
+					"name" : "user_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_typesupport_fastrtps_c-cf6f6191e2c5d8e32c16.json",
+					"name" : "user_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_typesupport_fastrtps_cpp-b67d8c148bbb4944fe5f.json",
+					"name" : "user_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_typesupport_introspection_c-9fad9a443f4f0103bf61.json",
+					"name" : "user_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface__rosidl_typesupport_introspection_cpp-b73a671683ca7067e59a.json",
+					"name" : "user_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "user_interface__rs::@c8e5bbb01034c5279e8b",
+					"jsonFile" : "target-user_interface__rs-2f0d2faa6383157f9aa0.json",
+					"name" : "user_interface__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface_s__rosidl_typesupport_c-561ebb66b4c5209bfb86.json",
+					"name" : "user_interface_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface_s__rosidl_typesupport_fastrtps_c-9c91a0cb1aeab29e73ed.json",
+					"name" : "user_interface_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface_s__rosidl_typesupport_introspection_c-ab604b30c501e1584611.json",
+					"name" : "user_interface_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface_uninstall-4fe7ef5d860cd8209196.json",
+					"name" : "user_interface_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/boyfriend51/gong/gong_ws/build/user_interface",
+		"source" : "/home/boyfriend51/gong/gong_ws/user_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

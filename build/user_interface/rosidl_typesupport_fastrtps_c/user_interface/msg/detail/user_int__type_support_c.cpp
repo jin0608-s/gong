@@ -36,8 +36,50 @@ extern "C"
 {
 #endif
 
+#include "std_msgs/msg/detail/header__functions.h"  // header
 
 // forward declare type support functions
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_user_interface
+bool cdr_serialize_std_msgs__msg__Header(
+  const std_msgs__msg__Header * ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_user_interface
+bool cdr_deserialize_std_msgs__msg__Header(
+  eprosima::fastcdr::Cdr & cdr,
+  std_msgs__msg__Header * ros_message);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_user_interface
+size_t get_serialized_size_std_msgs__msg__Header(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_user_interface
+size_t max_serialized_size_std_msgs__msg__Header(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_user_interface
+bool cdr_serialize_key_std_msgs__msg__Header(
+  const std_msgs__msg__Header * ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_user_interface
+size_t get_serialized_size_key_std_msgs__msg__Header(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_user_interface
+size_t max_serialized_size_key_std_msgs__msg__Header(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_user_interface
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, std_msgs, msg, Header)();
 
 
 using _UserInt__ros_msg_type = user_interface__msg__UserInt;
@@ -48,6 +90,12 @@ bool cdr_serialize_user_interface__msg__UserInt(
   const user_interface__msg__UserInt * ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
+  // Field name: header
+  {
+    cdr_serialize_std_msgs__msg__Header(
+      &ros_message->header, cdr);
+  }
+
   // Field name: user_int
   {
     cdr << ros_message->user_int;
@@ -71,6 +119,11 @@ bool cdr_deserialize_user_interface__msg__UserInt(
   eprosima::fastcdr::Cdr & cdr,
   user_interface__msg__UserInt * ros_message)
 {
+  // Field name: header
+  {
+    cdr_deserialize_std_msgs__msg__Header(cdr, &ros_message->header);
+  }
+
   // Field name: user_int
   {
     cdr >> ros_message->user_int;
@@ -103,6 +156,10 @@ size_t get_serialized_size_user_interface__msg__UserInt(
   const size_t wchar_size = 4;
   (void)padding;
   (void)wchar_size;
+
+  // Field name: header
+  current_alignment += get_serialized_size_std_msgs__msg__Header(
+    &(ros_message->header), current_alignment);
 
   // Field name: user_int
   {
@@ -146,6 +203,24 @@ size_t max_serialized_size_user_interface__msg__UserInt(
 
   full_bounded = true;
   is_plain = true;
+
+  // Field name: header
+  {
+    size_t array_size = 1;
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size;
+      inner_size =
+        max_serialized_size_std_msgs__msg__Header(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
 
   // Field name: user_int
   {
@@ -192,6 +267,12 @@ bool cdr_serialize_key_user_interface__msg__UserInt(
   const user_interface__msg__UserInt * ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
+  // Field name: header
+  {
+    cdr_serialize_key_std_msgs__msg__Header(
+      &ros_message->header, cdr);
+  }
+
   // Field name: user_int
   {
     cdr << ros_message->user_int;
@@ -224,6 +305,10 @@ size_t get_serialized_size_key_user_interface__msg__UserInt(
   const size_t wchar_size = 4;
   (void)padding;
   (void)wchar_size;
+
+  // Field name: header
+  current_alignment += get_serialized_size_key_std_msgs__msg__Header(
+    &(ros_message->header), current_alignment);
 
   // Field name: user_int
   {
@@ -266,6 +351,24 @@ size_t max_serialized_size_key_user_interface__msg__UserInt(
 
   full_bounded = true;
   is_plain = true;
+  // Field name: header
+  {
+    size_t array_size = 1;
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size;
+      inner_size =
+        max_serialized_size_key_std_msgs__msg__Header(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+
   // Field name: user_int
   {
     size_t array_size = 1;

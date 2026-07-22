@@ -1,0 +1,2 @@
+Invoking command in '/home/boyfriend51/gong/gong_ws/build/user_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boyfriend51/gong/gong_ws/install/gong_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/boyfriend51/gong/gong_ws/build/user_interface -- -j8 -l8
+Invoked command in '/home/boyfriend51/gong/gong_ws/build/user_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boyfriend51/gong/gong_ws/install/gong_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/boyfriend51/gong/gong_ws/build/user_interface -- -j8 -l8

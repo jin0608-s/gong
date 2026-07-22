@@ -28,6 +28,11 @@ pub struct UserInt {
 
     // This member is not documented.
     #[allow(missing_docs)]
+    pub header: std_msgs::msg::rmw::Header,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
     pub user_int: i32,
 
 

@@ -67,7 +67,11 @@ CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interf
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/msg/rosidl_generator_c__visibility_control.h \
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/msg/detail/user_int__struct.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /usr/include/assert.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h
+ /usr/include/strings.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__functions.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h

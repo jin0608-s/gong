@@ -11,10 +11,19 @@
 #include "rcutils/allocator.h"
 
 
+// Include directives for member types
+// Member `header`
+#include "std_msgs/msg/detail/header__functions.h"
+
 bool
 user_interface__msg__UserInt__init(user_interface__msg__UserInt * msg)
 {
   if (!msg) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__init(&msg->header)) {
+    user_interface__msg__UserInt__fini(msg);
     return false;
   }
   // user_int
@@ -29,6 +38,8 @@ user_interface__msg__UserInt__fini(user_interface__msg__UserInt * msg)
   if (!msg) {
     return;
   }
+  // header
+  std_msgs__msg__Header__fini(&msg->header);
   // user_int
   // user_int2
   // user_int3
@@ -38,6 +49,12 @@ bool
 user_interface__msg__UserInt__are_equal(const user_interface__msg__UserInt * lhs, const user_interface__msg__UserInt * rhs)
 {
   if (!lhs || !rhs) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__are_equal(
+      &(lhs->header), &(rhs->header)))
+  {
     return false;
   }
   // user_int
@@ -61,6 +78,12 @@ user_interface__msg__UserInt__copy(
   user_interface__msg__UserInt * output)
 {
   if (!input || !output) {
+    return false;
+  }
+  // header
+  if (!std_msgs__msg__Header__copy(
+      &(input->header), &(output->header)))
+  {
     return false;
   }
   // user_int

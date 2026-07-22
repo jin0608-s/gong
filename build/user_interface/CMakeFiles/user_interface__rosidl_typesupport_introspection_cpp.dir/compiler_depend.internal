@@ -7,6 +7,8 @@ CMakeFiles/user_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_types
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/msg/detail/user_int__struct.h
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/msg/rosidl_generator_c__visibility_control.h
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_cpp/user_interface/msg/detail/user_int__struct.hpp
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp
  /opt/ros/jazzy/include/rcutils/rcutils/allocator.h
  /opt/ros/jazzy/include/rcutils/rcutils/macros.h
  /opt/ros/jazzy/include/rcutils/rcutils/sha256.h
@@ -36,6 +38,8 @@ CMakeFiles/user_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_types
  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp
  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp
  /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.h
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

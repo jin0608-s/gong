@@ -232,9 +232,10 @@ CMakeFiles/user_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_gener
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/msg/detail/user_int__type_support.h \
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/msg/rosidl_generator_c__visibility_control.h \
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/msg/detail/user_int__struct.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/msg/detail/user_int__functions.h \
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/srv/detail/add_and_odd__type_support.h \
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/srv/detail/add_and_odd__struct.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
- /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/srv/detail/add_and_odd__functions.h

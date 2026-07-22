@@ -12,8 +12,12 @@ gong_basic/mt_sub.py
 gong_basic/mv_turtle.py
 gong_basic/qos_test_pub.py
 gong_basic/qos_test_sub.py
+gong_basic/service_client.py
+gong_basic/service_server.py
+gong_basic/service_thread_server.py
 gong_basic/simple_pub.py
 gong_basic/tpub.py
+gong_basic/user_int_pub.py
 gong_basic.egg-info/PKG-INFO
 gong_basic.egg-info/SOURCES.txt
 gong_basic.egg-info/dependency_links.txt

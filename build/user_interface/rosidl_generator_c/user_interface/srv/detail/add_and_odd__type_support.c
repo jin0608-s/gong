@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "user_interface/srv/detail/add_and_odd__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "user_interface/srv/detail/add_and_odd__type_support.h"
 #include "user_interface/srv/detail/add_and_odd__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
+#include "user_interface/srv/detail/add_and_odd__functions.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -90,9 +90,39 @@ rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/rosidl_ge
 rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/user_interface/msg/user_int.h: rosidl_adapter/user_interface/msg/UserInt.idl
 rosidl_generator_c/user_interface/msg/user_int.h: rosidl_adapter/user_interface/srv/AddAndOdd.idl
-rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/Char.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/ColorRGBA.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/Empty.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/Float32.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/Float32MultiArray.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/Float64.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/Float64MultiArray.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/Header.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/Int16.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/Int16MultiArray.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/Int32.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/Int32MultiArray.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/Int64.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/Int64MultiArray.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/Int8.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/Int8MultiArray.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/MultiArrayDimension.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/MultiArrayLayout.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/String.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/UInt16.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/UInt16MultiArray.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/UInt32.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/UInt32MultiArray.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/UInt64.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/UInt64MultiArray.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/UInt8.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/boyfriend51/gong/gong_ws/build/user_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c__arguments.json
 
@@ -238,6 +268,7 @@ libuser_interface__rosidl_generator_c.so: CMakeFiles/user_interface__rosidl_gene
 libuser_interface__rosidl_generator_c.so: CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/srv/detail/add_and_odd__functions.c.o
 libuser_interface__rosidl_generator_c.so: CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/srv/detail/add_and_odd__type_support.c.o
 libuser_interface__rosidl_generator_c.so: CMakeFiles/user_interface__rosidl_generator_c.dir/build.make
+libuser_interface__rosidl_generator_c.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 libuser_interface__rosidl_generator_c.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
 libuser_interface__rosidl_generator_c.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libuser_interface__rosidl_generator_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so

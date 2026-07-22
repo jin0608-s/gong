@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000698] (gong_basic) JobQueued: {'identifier': 'gong_basic', 'dependencies': OrderedDict()}
+[0.000772] (user_interface) JobQueued: {'identifier': 'user_interface', 'dependencies': OrderedDict()}
+[0.001039] (gong_basic) JobStarted: {'identifier': 'gong_basic'}
+[0.009181] (user_interface) JobStarted: {'identifier': 'user_interface'}
+[0.099430] (-) TimerEvent: {}
+[0.199832] (-) TimerEvent: {}
+[0.300414] (-) TimerEvent: {}
+[0.301931] (user_interface) JobProgress: {'identifier': 'user_interface', 'progress': 'cmake'}
+[0.302799] (user_interface) JobProgress: {'identifier': 'user_interface', 'progress': 'build'}
+[0.303683] (user_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/boyfriend51/gong/gong_ws/build/user_interface', '--', '-j8', '-l8'], 'cwd': '/home/boyfriend51/gong/gong_ws/build/user_interface', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'boyfriend51', 'GIT_ASKPASS': '/home/boyfriend51/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/boyfriend51/gong/gong_ws/install/user_interface/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/boyfriend51', 'OLDPWD': '/home/boyfriend51/gong/gong_ws', 'TERM_PROGRAM_VERSION': '1.129.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-98a3a1f6-105a-42d8-bf35-620af1497697.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/boyfriend51/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/boyfriend51/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', '_colcon_cd_root': '/home/boyfriend51//home/boyfriend51/gong/gong_ws', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/boyfriend51/gong/gong_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'boyfriend51', 'NAME': 'DESKTOP-Q6AL9BG', 'WSL_INTEROP': '/run/WSL/35407_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/boyfriend51/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/boyfriend51/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/boyfriend51/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/anaconda3:/mnt/c/Users/PC/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/PC/anaconda3/Library/usr/bin:/mnt/c/Users/PC/anaconda3/Library/bin:/mnt/c/Users/PC/anaconda3/Scripts:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/.dotnet/tools:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3636e493ff.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/boyfriend51/gong/gong_ws/install/user_interface:/home/boyfriend51/gong/gong_ws/install/gong_basic:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/boyfriend51/gong/gong_ws/build/user_interface', 'COPILOT_DEBUG_NONCE': '9df741136ca0e5c206adb6ad4392cca1', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages:/home/boyfriend51/gong/gong_ws/build/gong_basic:/home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/boyfriend51/gong/gong_ws/install/user_interface:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/boyfriend51/gong/gong_ws/install/gong_basic:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.347337] (user_interface) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.400602] (-) TimerEvent: {}
+[0.484232] (user_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.491924] (user_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.494533] (user_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500739] (-) TimerEvent: {}
+[0.601072] (-) TimerEvent: {}
+[0.701513] (-) TimerEvent: {}
+[0.802045] (-) TimerEvent: {}
+[0.828933] (user_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.878071] (user_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.880560] (user_interface) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.902212] (-) TimerEvent: {}
+[1.002687] (-) TimerEvent: {}
+[1.103154] (-) TimerEvent: {}
+[1.139854] (user_interface) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):\n'}
+[1.140342] (user_interface) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[1.140492] (user_interface) StderrLine: {'line': b'  user_interface --arguments-file\n'}
+[1.140595] (user_interface) StderrLine: {'line': b'  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_adapter__arguments__user_interface.json\n'}
+[1.140679] (user_interface) StderrLine: {'line': b'  --output-dir\n'}
+[1.140804] (user_interface) StderrLine: {'line': b'  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_adapter/user_interface\n'}
+[1.141141] (user_interface) StderrLine: {'line': b'  --output-file\n'}
+[1.141318] (user_interface) StderrLine: {'line': b'  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_adapter/user_interface.idls)\n'}
+[1.141439] (user_interface) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.141536] (user_interface) StderrLine: {'line': b'\n'}
+[1.141633] (user_interface) StderrLine: {'line': b"  Error processing 'std_msgs/msg/Header header' of 'user_interface/UserInt':\n"}
+[1.141730] (user_interface) StderrLine: {'line': b"  'std_msgs/msg/Header'\n"}
+[1.141826] (user_interface) StderrLine: {'line': b'\n'}
+[1.142025] (user_interface) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.142219] (user_interface) StderrLine: {'line': b'\n'}
+[1.142343] (user_interface) StderrLine: {'line': b'    File "<frozen runpy>", line 198, in _run_module_as_main\n'}
+[1.142521] (user_interface) StderrLine: {'line': b'    File "<frozen runpy>", line 88, in _run_code\n'}
+[1.142777] (user_interface) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.142927] (user_interface) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.143096] (user_interface) StderrLine: {'line': b'               ^^^^^^\n'}
+[1.143173] (user_interface) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.143348] (user_interface) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.143424] (user_interface) StderrLine: {'line': b'                     ^^^^^^^^^^^^^^^\n'}
+[1.143495] (user_interface) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.143601] (user_interface) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.143732] (user_interface) StderrLine: {'line': b'             ^^^^^^^^^^^^^^^^^^^\n'}
+[1.143861] (user_interface) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.144105] (user_interface) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.144381] (user_interface) StderrLine: {'line': b'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.144655] (user_interface) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 521, in parse_message_string\n'}
+[1.144774] (user_interface) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[1.144849] (user_interface) StderrLine: {'line': b'      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.144922] (user_interface) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 278, in __init__\n'}
+[1.145033] (user_interface) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[1.145160] (user_interface) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 191, in __init__\n'}
+[1.145249] (user_interface) StderrLine: {'line': b'      raise InvalidResourceName(type_string)\n'}
+[1.145339] (user_interface) StderrLine: {'line': b'\n'}
+[1.145432] (user_interface) StderrLine: {'line': b'  rosidl_adapter.parser.InvalidResourceName: std_msgs/msg/Header\n'}
+[1.145575] (user_interface) StderrLine: {'line': b'\n'}
+[1.145687] (user_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.145773] (user_interface) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)\n'}
+[1.145860] (user_interface) StderrLine: {'line': b'  CMakeLists.txt:13 (rosidl_generate_interfaces)\n'}
+[1.145991] (user_interface) StderrLine: {'line': b'\n'}
+[1.146090] (user_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[1.146215] (user_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.151264] (user_interface) StderrLine: {'line': b'gmake: *** [Makefile:1099: cmake_check_build_system] Error 1\n'}
+[1.153911] (user_interface) CommandEnded: {'returncode': 2}
+[1.177974] (user_interface) JobEnded: {'identifier': 'user_interface', 'rc': 2}
+[1.188891] (gong_basic) JobEnded: {'identifier': 'gong_basic', 'rc': 'SIGINT'}
+[1.200117] (-) EventReactorShutdown: {}

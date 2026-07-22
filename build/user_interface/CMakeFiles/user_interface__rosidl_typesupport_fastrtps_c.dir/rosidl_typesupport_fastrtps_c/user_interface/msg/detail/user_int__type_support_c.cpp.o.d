@@ -39,6 +39,8 @@ CMakeFiles/user_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_typesupport_fastrtps_c/user_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h \
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/msg/detail/user_int__struct.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/jazzy/include/fastcdr/fastcdr/Cdr.h /usr/include/c++/13/array \
  /usr/include/c++/13/compare /usr/include/c++/13/initializer_list \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -226,4 +228,6 @@ CMakeFiles/user_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_
  /usr/include/c++/13/stdlib.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/msg/rosidl_generator_c__visibility_control.h
+ /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_c/user_interface/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__functions.h \
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h

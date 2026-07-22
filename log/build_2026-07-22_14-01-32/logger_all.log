@@ -1,0 +1,215 @@
+[0.224s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.224s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7320fff79d90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7320fff2e210>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7320fff2e210>>, mixin_verb=('build',))
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.270s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/boyfriend51/gong/gong_ws'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/gong_basic) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/gong_basic) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/gong_basic) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/gong_basic) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/gong_basic) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/gong_basic) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/gong_basic) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/gong_basic) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/gong_basic) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gong_basic' with type 'ros.ament_python' and name 'gong_basic'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'user_interface' with type 'ros.ament_cmake' and name 'user_interface'
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.339s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/boyfriend51/gong/gong_ws/install
+[0.341s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/jazzy
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'gong_basic' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'gong_basic' build argument 'cmake_target' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'gong_basic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'gong_basic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'gong_basic' build argument 'cmake_clean_first' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'gong_basic' build argument 'cmake_force_configure' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'gong_basic' build argument 'ament_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'gong_basic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'gong_basic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.390s] DEBUG:colcon.colcon_core.verb:Building package 'gong_basic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/boyfriend51/gong/gong_ws/build/gong_basic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/boyfriend51/gong/gong_ws/install/gong_basic', 'merge_install': False, 'path': '/home/boyfriend51/gong/gong_ws/src/gong_basic', 'symlink_install': True, 'test_result_base': None}
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_target' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.391s] DEBUG:colcon.colcon_core.verb:Building package 'user_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/boyfriend51/gong/gong_ws/build/user_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/boyfriend51/gong/gong_ws/install/user_interface', 'merge_install': False, 'path': '/home/boyfriend51/gong/gong_ws/user_interface', 'symlink_install': True, 'test_result_base': None}
+[0.392s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.393s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.394s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/boyfriend51/gong/gong_ws/src/gong_basic' with build type 'ament_python'
+[0.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('gong_basic', 'ament_prefix_path')
+[0.396s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/install/gong_basic/share/gong_basic/hook/ament_prefix_path.ps1'
+[0.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/boyfriend51/gong/gong_ws/install/gong_basic/share/gong_basic/hook/ament_prefix_path.dsv'
+[0.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/install/gong_basic/share/gong_basic/hook/ament_prefix_path.sh'
+[0.399s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.404s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/boyfriend51/gong/gong_ws/user_interface' with build type 'ament_cmake'
+[0.405s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/boyfriend51/gong/gong_ws/user_interface'
+[0.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.406s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.669s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/boyfriend51/gong/gong_ws/src/gong_basic'
+[0.670s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.670s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/boyfriend51/gong/gong_ws/build/user_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boyfriend51/gong/gong_ws/install/gong_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/boyfriend51/gong/gong_ws/build/user_interface -- -j8 -l8
+[1.622s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_lib, install_headers, setopt, compile_catalog, clean, bdist_dumb, upload, alias, upload_docs, install_data, extract_messages, install, build_ext, egg_info, bdist, build, symlink_data, build_clib, register, install_egg_info, bdist_egg, build_scripts, test, editable_wheel, sdist, bdist_rpm, dist_info, saveopts, init_catalog, rotate, build_py, update_catalog, easy_install, install_scripts, check, develop
+[2.083s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --build-directory, --find-links, --force-installation-into-system-dir, --editable, --no-deps, --uninstall, --zip-ok, --no-user-cfg, --exclude-scripts, --multi-version, --help, --version, --script-dir, --site-dirs, --quiet, --prefix, --always-unzip, --allow-hosts, --index-url, --verbose, --install-layout, --install-dir, --no-find-links, --upgrade, --always-copy, --egg-path, --dry-run, --record, --local-snapshots-ok, --optimize, --user
+[2.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/boyfriend51/gong/gong_ws/build/gong_basic': PYTHONPATH=/home/boyfriend51/gong/gong_ws/build/gong_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/boyfriend51/gong/gong_ws/build/gong_basic/build --no-deps symlink_data
+[3.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('gong_basic', 'pythonpath_develop')
+[3.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/build/gong_basic/share/gong_basic/hook/pythonpath_develop.ps1'
+[3.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/boyfriend51/gong/gong_ws/build/gong_basic' returned '0': PYTHONPATH=/home/boyfriend51/gong/gong_ws/build/gong_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/boyfriend51/gong/gong_ws/build/gong_basic/build --no-deps symlink_data
+[3.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/boyfriend51/gong/gong_ws/build/gong_basic/share/gong_basic/hook/pythonpath_develop.dsv'
+[3.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/build/gong_basic/share/gong_basic/hook/pythonpath_develop.sh'
+[3.130s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/gong_basic' for CMake module files
+[3.130s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/gong_basic' for CMake config files
+[3.131s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/gong_basic/lib'
+[3.132s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/gong_basic/bin'
+[3.132s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/gong_basic/lib/pkgconfig/gong_basic.pc'
+[3.132s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/gong_basic/lib/python3.12/site-packages'
+[3.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('gong_basic', 'pythonpath')
+[3.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/install/gong_basic/share/gong_basic/hook/pythonpath.ps1'
+[3.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/boyfriend51/gong/gong_ws/install/gong_basic/share/gong_basic/hook/pythonpath.dsv'
+[3.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/install/gong_basic/share/gong_basic/hook/pythonpath.sh'
+[3.136s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/gong_basic/bin'
+[3.137s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gong_basic)
+[3.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/boyfriend51/gong/gong_ws/install/gong_basic/share/gong_basic/package.ps1'
+[3.139s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/boyfriend51/gong/gong_ws/install/gong_basic/share/gong_basic/package.dsv'
+[3.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/boyfriend51/gong/gong_ws/install/gong_basic/share/gong_basic/package.sh'
+[3.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/boyfriend51/gong/gong_ws/install/gong_basic/share/gong_basic/package.bash'
+[3.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/boyfriend51/gong/gong_ws/install/gong_basic/share/gong_basic/package.zsh'
+[3.144s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/boyfriend51/gong/gong_ws/install/gong_basic/share/colcon-core/packages/gong_basic)
+[3.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/boyfriend51/gong/gong_ws/build/user_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boyfriend51/gong/gong_ws/install/gong_basic:/opt/ros/jazzy /usr/bin/cmake --build /home/boyfriend51/gong/gong_ws/build/user_interface -- -j8 -l8
+[3.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/boyfriend51/gong/gong_ws/build/user_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boyfriend51/gong/gong_ws/install/gong_basic:/opt/ros/jazzy /usr/bin/cmake --install /home/boyfriend51/gong/gong_ws/build/user_interface
+[3.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(user_interface)
+[3.489s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/user_interface' for CMake module files
+[3.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/boyfriend51/gong/gong_ws/build/user_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boyfriend51/gong/gong_ws/install/gong_basic:/opt/ros/jazzy /usr/bin/cmake --install /home/boyfriend51/gong/gong_ws/build/user_interface
+[3.491s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/user_interface' for CMake config files
+[3.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'cmake_prefix_path')
+[3.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/cmake_prefix_path.ps1'
+[3.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/cmake_prefix_path.dsv'
+[3.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/cmake_prefix_path.sh'
+[3.494s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/user_interface/lib'
+[3.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'ld_library_path_lib')
+[3.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/ld_library_path_lib.ps1'
+[3.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/ld_library_path_lib.dsv'
+[3.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/ld_library_path_lib.sh'
+[3.496s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/user_interface/bin'
+[3.496s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/user_interface/lib/pkgconfig/user_interface.pc'
+[3.497s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages'
+[3.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'pythonpath')
+[3.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/pythonpath.ps1'
+[3.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/pythonpath.dsv'
+[3.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/pythonpath.sh'
+[3.499s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/user_interface/bin'
+[3.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/package.ps1'
+[3.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/package.dsv'
+[3.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/package.sh'
+[3.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/package.bash'
+[3.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/package.zsh'
+[3.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/boyfriend51/gong/gong_ws/install/user_interface/share/colcon-core/packages/user_interface)
+[3.503s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(user_interface)
+[3.504s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/user_interface' for CMake module files
+[3.504s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/user_interface' for CMake config files
+[3.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'cmake_prefix_path')
+[3.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/cmake_prefix_path.ps1'
+[3.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/cmake_prefix_path.dsv'
+[3.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/cmake_prefix_path.sh'
+[3.509s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/user_interface/lib'
+[3.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'ld_library_path_lib')
+[3.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/ld_library_path_lib.ps1'
+[3.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/ld_library_path_lib.dsv'
+[3.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/ld_library_path_lib.sh'
+[3.512s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/user_interface/bin'
+[3.512s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/user_interface/lib/pkgconfig/user_interface.pc'
+[3.512s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/user_interface/lib/python3.12/site-packages'
+[3.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'pythonpath')
+[3.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/pythonpath.ps1'
+[3.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/pythonpath.dsv'
+[3.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/hook/pythonpath.sh'
+[3.515s] Level 1:colcon.colcon_core.environment:checking '/home/boyfriend51/gong/gong_ws/install/user_interface/bin'
+[3.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/package.ps1'
+[3.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/package.dsv'
+[3.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/package.sh'
+[3.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/package.bash'
+[3.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/boyfriend51/gong/gong_ws/install/user_interface/share/user_interface/package.zsh'
+[3.521s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/boyfriend51/gong/gong_ws/install/user_interface/share/colcon-core/packages/user_interface)
+[3.522s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.524s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.584s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.584s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.584s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.584s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.585s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[3.585s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.586s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/boyfriend51/gong/gong_ws/install/local_setup.ps1'
+[3.587s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/boyfriend51/gong/gong_ws/install/_local_setup_util_ps1.py'
+[3.588s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/boyfriend51/gong/gong_ws/install/setup.ps1'
+[3.589s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/boyfriend51/gong/gong_ws/install/local_setup.sh'
+[3.591s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/boyfriend51/gong/gong_ws/install/_local_setup_util_sh.py'
+[3.592s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/boyfriend51/gong/gong_ws/install/setup.sh'
+[3.593s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/boyfriend51/gong/gong_ws/install/local_setup.bash'
+[3.594s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/boyfriend51/gong/gong_ws/install/setup.bash'
+[3.595s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/boyfriend51/gong/gong_ws/install/local_setup.zsh'
+[3.595s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/boyfriend51/gong/gong_ws/install/setup.zsh'

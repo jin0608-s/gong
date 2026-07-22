@@ -9,6 +9,8 @@ CMakeFiles/user_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesuppor
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_generator_cpp/user_interface/msg/detail/user_int__struct.hpp
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_typesupport_fastrtps_cpp/user_interface/msg/detail/user_int__rosidl_typesupport_fastrtps_cpp.hpp
  /home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_typesupport_fastrtps_cpp/user_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp
  /opt/ros/jazzy/include/fastcdr/fastcdr/Cdr.h
  /opt/ros/jazzy/include/fastcdr/fastcdr/CdrEncoding.hpp
  /opt/ros/jazzy/include/fastcdr/fastcdr/FastBuffer.h
@@ -55,6 +57,8 @@ CMakeFiles/user_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesuppor
  /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/visibility_control.h
  /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.h
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

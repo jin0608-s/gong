@@ -14,6 +14,11 @@ pub struct UserInt {
 
     // This member is not documented.
     #[allow(missing_docs)]
+    pub header: std_msgs::msg::Header,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
     pub user_int: i32,
 
 
@@ -42,11 +47,13 @@ impl rosidl_runtime_rs::Message for UserInt {
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
     match msg_cow {
       std::borrow::Cow::Owned(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+        header: std_msgs::msg::Header::into_rmw_message(std::borrow::Cow::Owned(msg.header)).into_owned(),
         user_int: msg.user_int,
         user_int2: msg.user_int2,
         user_int3: msg.user_int3,
       }),
       std::borrow::Cow::Borrowed(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+        header: std_msgs::msg::Header::into_rmw_message(std::borrow::Cow::Borrowed(&msg.header)).into_owned(),
       user_int: msg.user_int,
       user_int2: msg.user_int2,
       user_int3: msg.user_int3,
@@ -56,6 +63,7 @@ impl rosidl_runtime_rs::Message for UserInt {
 
   fn from_rmw_message(msg: Self::RmwMsg) -> Self {
     Self {
+      header: std_msgs::msg::Header::from_rmw_message(msg.header),
       user_int: msg.user_int,
       user_int2: msg.user_int2,
       user_int3: msg.user_int3,

@@ -38,7 +38,25 @@ void UserInt_fini_function(void * message_memory)
   typed_message->~UserInt();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember UserInt_message_member_array[3] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember UserInt_message_member_array[4] = {
+  {
+    "header",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<std_msgs::msg::Header>(),  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(user_interface::msg::UserInt, header),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
   {
     "user_int",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
@@ -98,7 +116,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember UserInt_messa
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers UserInt_message_members = {
   "user_interface::msg",  // message namespace
   "UserInt",  // message name
-  3,  // number of fields
+  4,  // number of fields
   sizeof(user_interface::msg::UserInt),
   false,  // has_any_key_member_
   UserInt_message_member_array,  // message members

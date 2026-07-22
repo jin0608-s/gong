@@ -49,6 +49,10 @@ class Metaclass_UserInt(type):
             cls._TYPE_SUPPORT = module.type_support_msg__msg__user_int
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__msg__user_int
 
+            from std_msgs.msg import Header
+            if Header.__class__._TYPE_SUPPORT is None:
+                Header.__class__.__import_type_support__()
+
     @classmethod
     def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
@@ -62,6 +66,7 @@ class UserInt(metaclass=Metaclass_UserInt):
     """Message class 'UserInt'."""
 
     __slots__ = [
+        '_header',
         '_user_int',
         '_user_int2',
         '_user_int3',
@@ -69,6 +74,7 @@ class UserInt(metaclass=Metaclass_UserInt):
     ]
 
     _fields_and_field_types = {
+        'header': 'std_msgs/Header',
         'user_int': 'int32',
         'user_int2': 'int32',
         'user_int3': 'int32',
@@ -77,6 +83,7 @@ class UserInt(metaclass=Metaclass_UserInt):
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
     SLOT_TYPES = (
+        rosidl_parser.definition.NamespacedType(['std_msgs', 'msg'], 'Header'),  # noqa: E501
         rosidl_parser.definition.BasicType('int32'),  # noqa: E501
         rosidl_parser.definition.BasicType('int32'),  # noqa: E501
         rosidl_parser.definition.BasicType('int32'),  # noqa: E501
@@ -91,6 +98,8 @@ class UserInt(metaclass=Metaclass_UserInt):
             assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
                 'Invalid arguments passed to constructor: %s' % \
                 ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        from std_msgs.msg import Header
+        self.header = kwargs.get('header', Header())
         self.user_int = kwargs.get('user_int', int())
         self.user_int2 = kwargs.get('user_int2', int())
         self.user_int3 = kwargs.get('user_int3', int())
@@ -125,6 +134,8 @@ class UserInt(metaclass=Metaclass_UserInt):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
+        if self.header != other.header:
+            return False
         if self.user_int != other.user_int:
             return False
         if self.user_int2 != other.user_int2:
@@ -137,6 +148,20 @@ class UserInt(metaclass=Metaclass_UserInt):
     def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
+
+    @builtins.property
+    def header(self):
+        """Message field 'header'."""
+        return self._header
+
+    @header.setter
+    def header(self, value):
+        if self._check_fields:
+            from std_msgs.msg import Header
+            assert \
+                isinstance(value, Header), \
+                "The 'header' field must be a sub message of type 'Header'"
+        self._header = value
 
     @builtins.property
     def user_int(self):

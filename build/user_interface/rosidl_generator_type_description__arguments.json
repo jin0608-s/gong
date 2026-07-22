@@ -6,7 +6,8 @@
     "/home/boyfriend51/gong/gong_ws/build/user_interface/rosidl_adapter/user_interface:srv/AddAndOdd.idl"
   ],
   "include_paths": [
-    "service_msgs:/opt/ros/jazzy/share/service_msgs",
-    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
   ]
 }

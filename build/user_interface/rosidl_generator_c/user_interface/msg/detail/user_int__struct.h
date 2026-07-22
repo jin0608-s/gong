@@ -19,9 +19,14 @@ extern "C"
 
 // Constants defined in the message
 
+// Include directives for member types
+// Member 'header'
+#include "std_msgs/msg/detail/header__struct.h"
+
 /// Struct defined in msg/UserInt in the package user_interface.
 typedef struct user_interface__msg__UserInt
 {
+  std_msgs__msg__Header header;
   int32_t user_int;
   int32_t user_int2;
   int32_t user_int3;

@@ -16,6 +16,10 @@
 #include "user_interface/msg/detail/user_int__struct.h"
 #include "user_interface/msg/detail/user_int__functions.h"
 
+ROSIDL_GENERATOR_C_IMPORT
+bool std_msgs__msg__header__convert_from_py(PyObject * _pymsg, void * _ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * std_msgs__msg__header__convert_to_py(void * raw_ros_message);
 
 ROSIDL_GENERATOR_C_EXPORT
 bool user_interface__msg__user_int__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -50,6 +54,17 @@ bool user_interface__msg__user_int__convert_from_py(PyObject * _pymsg, void * _r
     assert(strncmp("user_interface.msg._user_int.UserInt", full_classname_dest, 36) == 0);
   }
   user_interface__msg__UserInt * ros_message = _ros_message;
+  {  // header
+    PyObject * field = PyObject_GetAttrString(_pymsg, "header");
+    if (!field) {
+      return false;
+    }
+    if (!std_msgs__msg__header__convert_from_py(field, &ros_message->header)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
   {  // user_int
     PyObject * field = PyObject_GetAttrString(_pymsg, "user_int");
     if (!field) {
@@ -99,6 +114,20 @@ PyObject * user_interface__msg__user_int__convert_to_py(void * raw_ros_message)
     }
   }
   user_interface__msg__UserInt * ros_message = (user_interface__msg__UserInt *)raw_ros_message;
+  {  // header
+    PyObject * field = NULL;
+    field = std_msgs__msg__header__convert_to_py(&ros_message->header);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "header", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
   {  // user_int
     PyObject * field = NULL;
     field = PyLong_FromLong(ros_message->user_int);

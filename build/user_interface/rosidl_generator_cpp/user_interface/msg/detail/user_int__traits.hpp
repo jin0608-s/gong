@@ -17,6 +17,10 @@
 #include "user_interface/msg/detail/user_int__struct.hpp"
 #include "rosidl_runtime_cpp/traits.hpp"
 
+// Include directives for member types
+// Member 'header'
+#include "std_msgs/msg/detail/header__traits.hpp"
+
 namespace user_interface
 {
 
@@ -28,6 +32,13 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
+  // member: header
+  {
+    out << "header: ";
+    to_flow_style_yaml(msg.header, out);
+    out << ", ";
+  }
+
   // member: user_int
   {
     out << "user_int: ";
@@ -54,6 +65,15 @@ inline void to_block_style_yaml(
   const UserInt & msg,
   std::ostream & out, size_t indentation = 0)
 {
+  // member: header
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "header:\n";
+    to_block_style_yaml(msg.header, out, indentation + 2);
+  }
+
   // member: user_int
   {
     if (indentation > 0) {
@@ -131,11 +151,11 @@ inline const char * name<user_interface::msg::UserInt>()
 
 template<>
 struct has_fixed_size<user_interface::msg::UserInt>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, has_fixed_size<std_msgs::msg::Header>::value> {};
 
 template<>
 struct has_bounded_size<user_interface::msg::UserInt>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, has_bounded_size<std_msgs::msg::Header>::value> {};
 
 template<>
 struct is_message<user_interface::msg::UserInt>
