@@ -56,4 +56,10 @@ code ~/.bashrc 를 입력한 후 맨 마지막 줄에 source /opt/ros/jazzy/setu
 4교시: service thread server 작성  \
 5교시: service client 작성()  \
 6교시: parameter  \
+7교시: 외부 노드에서 parameter 변경 AsyncParameterClient \
+8교시: launch 에서의 parameter 설정 Node(parameters=[])
+
+---
+2026.07.23
+---
 

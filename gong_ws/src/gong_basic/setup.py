@@ -39,6 +39,7 @@ setup(
             'mt_sub = gong_basic.mt_sub:main',
             
             'mv_turtle = gong_basic.mv_turtle:main',
+            "mv_turtle_ns = gong_basic.mv_turtle_ns:main",
             'qos_test_pub = gong_basic.qos_test_pub:main',
             'qos_test_sub = gong_basic.qos_test_sub:main',
             "user_int_sub = gong_basic.user_int_sub:main",
@@ -49,6 +50,7 @@ setup(
             "my_param = gong_basic.my_param:main",
             "param_async = gong_basic.param_async:main",
             "action_server = gong_basic.action_server:main",
+            "action_thread_server = gong_basic.action_thread_server:main",
             "action_client = gong_basic.action_client:main",
         ],
     },
