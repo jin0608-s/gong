@@ -1,7 +1,0 @@
-{
-  "package_name": "user_interface",
-  "non_idl_tuples": [
-    "/home/boyfriend51/gong/gong_ws/user_interface:msg/UserInt.msg",
-    "/home/boyfriend51/gong/gong_ws/user_interface:srv/AddAndOdd.srv"
-  ]
-}
