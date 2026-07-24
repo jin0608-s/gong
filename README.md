@@ -1,6 +1,8 @@
 # gong
 
 aa
+ROS와 비전처리를 활용한 로봇팔 제어
+
 
 ---
 2026.07.20
@@ -19,17 +21,6 @@ aa
 ● service: list, info, call \
 ● interface: proto \
 ● rqt 실습: rqt_graph, topic monitor, 
-
-''' shell \
-ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
-''' 
-
-(웹뷰, 대시보드) 
-
-
-code ~/.bashrc 를 입력한 후 맨 마지막 줄에 source /opt/ros/jazzy/setup.bash를 추가하고 저장하면, 
-앞으로 새 터미널을 열 때마다 자동으로 ROS 2 Jazzy 환경이 고정되어 로드됨. 
-
 
 
 ---
@@ -58,6 +49,7 @@ code ~/.bashrc 를 입력한 후 맨 마지막 줄에 source /opt/ros/jazzy/setu
 6교시: parameter  \
 7교시: 외부 노드에서 parameter 변경 AsyncParameterClient \
 8교시: launch 에서의 parameter 설정 Node(parameters=[])
+
 
 ---
 2026.07.23

@@ -1,10 +1,9 @@
+import numpy as np
 import rclpy
 from geometry_msgs.msg import TransformStamped
 from rclpy.node import Node
-from std_msgs.msg import String
 from tf2_ros.static_transform_broadcaster import StaticTransformBroadcaster
-import math
-import numpy as np
+
 
 def euler_to_quaternion_pure(roll, pitch, yaw):
     cr = np.cos(roll * 0.5)
@@ -13,25 +12,20 @@ def euler_to_quaternion_pure(roll, pitch, yaw):
     sp = np.sin(pitch * 0.5)
     cy = np.cos(yaw * 0.5)
     sy = np.sin(yaw * 0.5)
+    qw = cr * cp * cy + sr * sp * sy
     qx = sr * cp * cy - cr * sp * sy
     qy = cr * sp * cy + sr * cp * sy
     qz = cr * cp * sy - sr * sp * cy
-    qw = cr * cp * cy + sr * sp * sy
 
-    return np.array([qx, qy, qz, qw])
-
-# Example usage
-r, p, y = 0.1, 0.2, 0.3
-quat = euler_to_quaternion_pure(r, p, y)
-print(f"Pure Python Quaternion [x, y, z, w]: {quat}")
+    return qx, qy, qz, qw
 
 
 class M_pub(Node):
     def __init__(self):
-        super().__init__("massage_pub")  # 노드 이름
+        super().__init__("static_tf")  # 노드 이름
         # timer 등록
-        self.transformation = [1.0, 1.0, 0.0, 0.0, 0.0, np.pi/6]
-        self.transformation2 = [1.0, 1.0, 0.0, 0.0, 0.0, -np.pi/6]
+        self.transformation = [1.0, 1.0, 0.0, 0.0, 0.0, np.pi / 6]
+        self.transformation2 = [1.0, 1.0, 1.0, 0.0, 0.0, -np.pi / 6]
         self.tf_static_broadcaster = StaticTransformBroadcaster(self)
         self.make_transforms()
 
@@ -39,7 +33,7 @@ class M_pub(Node):
         # tf 데이터 저장
         t = TransformStamped()
         t.header.stamp = self.get_clock().now().to_msg()
-        t.header.frame_id = "world"  # 중요!!(상위 tf2 명시)
+        t.header.frame_id = "turtle1"  # 중요!!(상위 tf2 명시)
         t.child_frame_id = "joint1"
         x, y, z, w = euler_to_quaternion_pure(*self.transformation[3:])
         t.transform.translation.x = self.transformation[0]
@@ -49,8 +43,7 @@ class M_pub(Node):
         t.transform.rotation.y = y
         t.transform.rotation.z = z
         t.transform.rotation.w = w
-        
-        
+
         t2 = TransformStamped()
         t2.header.stamp = self.get_clock().now().to_msg()
         t2.header.frame_id = "joint1"  # 중요!!(상위 tf2 명시)
