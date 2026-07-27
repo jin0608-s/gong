@@ -55,3 +55,15 @@ ROS와 비전처리를 활용한 로봇팔 제어
 2026.07.23
 ---
 
+1교시: 복습  \
+2교시: action interface 정의, action IDL fibonacci 작성  \
+3교시: topic, service, action 의 차이점  \
+4교시: action server 작성, action client 작성  \
+5교시: action thread server 작성( cancel, abort 구현)  \
+6교시: namespace 적용 launch 작성  \
+7교시: static tf 발행  \
+8교시: dynamic tf 발행
+
+---
+2026.07.24
+---
