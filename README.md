@@ -64,6 +64,31 @@ ROS와 비전처리를 활용한 로봇팔 제어
 7교시: static tf 발행  \
 8교시: dynamic tf 발행
 
+
 ---
 2026.07.24
 ---
+
+1교시: 복습  \
+2교시: tf2 설명 tf2 패키지 작성  \
+3교시: tf2 listener 작성, tf2 listener 에서 transform 받아오기  \
+4교시: 실습[터틀심 listener]  \
+5교시: turtlesim 에서 tf2 적용  \
+6교시: urdf 설명, urdf 패키지 작성  \
+7교시: xacro 실습  \
+8교시: urdf 실습
+
+
+---
+2026.07.27
+---
+
+1교시: 복습  \
+2교시: robot_state_publisher, joint_state_publisher 설명  \
+3교시: manipulator-X 패키지 설치 및 작동 실습  \
+
+
+---
+2026.07.28
+---
+
