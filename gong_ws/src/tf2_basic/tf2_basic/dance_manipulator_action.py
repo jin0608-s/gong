@@ -81,8 +81,8 @@ class DanceManipulatorAction(Node):
         point.time_from_start.sec = seconds
         point.time_from_start.nanosec = nanoseconds
         
-        # 충돌 및 모터 부하 방지를 위해 그리퍼 간격을 0.012m ~ 0.018m 범위 내에서 무작위 제어
-        random_gripper_pos = random.uniform(0.012, 0.018)
+        # 충돌 및 모터 부하 방지를 위해 그리퍼 간격을 0.010m ~ 0.018m 범위 내에서 무작위 제어
+        random_gripper_pos = random.uniform(0.010, 0.018)
 
         # 관절 액션 서버 및 그리퍼 액션 서버로 명령 동시 전송
         self.move_joint(point)

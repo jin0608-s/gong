@@ -86,9 +86,15 @@ ROS와 비전처리를 활용한 로봇팔 제어
 1교시: 복습  \
 2교시: robot_state_publisher, joint_state_publisher 설명  \
 3교시: manipulator-X 패키지 설치 및 작동 실습  \
+4교시: descriptor 실행 및 tf-tree   \
+5교시: bringup launch 실행 - robot_state_publisher, joint_state_publisher_gui, rviz2 실행  \
+6교시: teleo_keyboard 로 manipulator-X 제어 실습  \
+7교시: node 작성 trajectory_joint_state 로 manipulator-X 제어 실습  \
+8교시: 과제 - 춤추는 로봇 팔 만들기
 
 
 ---
 2026.07.28
 ---
+
 
