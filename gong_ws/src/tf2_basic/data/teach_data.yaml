@@ -1,0 +1,120 @@
+joint_names:
+- joint1
+- joint2
+- joint3
+- joint4
+joint_limits:
+  joint1:
+  - -3.14159265359
+  - 3.14159265359
+  joint2:
+  - -1.5
+  - 1.5
+  joint3:
+  - -1.5
+  - 1.4
+  joint4:
+  - -1.7
+  - 1.97
+patterns:
+- name: test
+  steps:
+  - positions:
+    - 0.078233
+    - -2.055534
+    - 1.481825
+    - 0.743981
+    gripper:
+    - -0.010047
+    duration: 1.0
+    pause: 0.2
+  - positions:
+    - 0.078233
+    - -2.055534
+    - 1.481825
+    - 0.743981
+    gripper:
+    - -0.01003
+    duration: 1.0
+    pause: 0.2
+  - positions:
+    - 0.078233
+    - -2.055534
+    - 1.481825
+    - 0.743981
+    gripper:
+    - -0.01003
+    duration: 1.0
+    pause: 0.2
+  - positions:
+    - 0.078233
+    - -2.055534
+    - 1.481825
+    - 0.743981
+    gripper:
+    - -0.01003
+    duration: 1.0
+    pause: 0.2
+  - positions:
+    - 0.078233
+    - -2.055534
+    - 1.481825
+    - 0.743981
+    gripper:
+    - -0.01003
+    duration: 1.0
+    pause: 0.2
+  - positions:
+    - 0.078233
+    - -2.055534
+    - 1.481825
+    - 0.743981
+    gripper:
+    - -0.01003
+    duration: 1.0
+    pause: 0.2
+  - positions:
+    - 0.078233
+    - -2.057068
+    - 1.481825
+    - 0.743981
+    gripper:
+    - -0.010047
+    duration: 1.0
+    pause: 0.2
+  - positions:
+    - 0.078233
+    - -2.055534
+    - 1.481825
+    - 0.743981
+    gripper:
+    - -0.01003
+    duration: 1.0
+    pause: 0.2
+  - positions:
+    - 0.078233
+    - -2.057068
+    - 1.481825
+    - 0.743981
+    gripper:
+    - -0.010047
+    duration: 1.0
+    pause: 0.2
+  - positions:
+    - 0.078233
+    - -2.055534
+    - 1.481825
+    - 0.743981
+    gripper:
+    - -0.01003
+    duration: 1.0
+    pause: 0.2
+  - positions:
+    - 0.078233
+    - -2.055534
+    - 1.481825
+    - 0.743981
+    gripper:
+    - -0.01003
+    duration: 1.0
+    pause: 0.2

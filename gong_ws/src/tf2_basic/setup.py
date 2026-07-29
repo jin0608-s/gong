@@ -11,10 +11,13 @@ setup(
     data_files=[
         ('share/ament_index/resource_index/packages',['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-         ("share/" + package_name + "/launch", glob(os.path.join("launch", "*.launch.py"))),
+        ("share/" + package_name + "/launch", glob(os.path.join("launch", "*.launch.py"))),
         ("share/" + package_name + "/urdf", glob(os.path.join("urdf", "*.*"))),
         ("share/" + package_name + "/rviz", glob(os.path.join("rviz", "*.*"))),
         ("share/" + package_name + "/meshes", glob(os.path.join("meshes", "*.*"))),
+        ("share/" + package_name + "/data", glob(os.path.join("data", "*.*"))),
+        (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*launch.[pxy][yma]*'))),   #AI 추가
+
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -41,6 +44,9 @@ setup(
             "move_manipulator_action_temp = tf2_basic.move_manipulator_action_temp:main",
             "teach_manipulator= tf2_basic.teach_manipulator:main",
             "teach_manipulator_T1 = tf2_basic.teach_manipulator_T1:main",
+            "play_recorded_dance = tf2_basic.play_recorded_dance:main",
+            "moveit_test = tf2_basic.moveit_test:main",
+            "moveit_class = tf2_basic.moveit_class:main",
             
             
         ],
