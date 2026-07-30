@@ -97,4 +97,33 @@ ROS와 비전처리를 활용한 로봇팔 제어
 2026.07.28
 ---
 
+1교시: 복습  \
+2교시: joint state action code 작성  \
+3교시: [실습] 춤추는 로봇팔 만들기  \
+4교시: teach manipulator 노드 작성 joint_states 구독  \
+5교시: teach manipulator 노드 작성 키보드 인식 코드, yaml 저장 파일  \
+6교시: play_recorded_dance 노드 작성  \
+7교시: pick and place 실습 (traching data 활용)  \
+8교시: moveit 실습
+
+
+---
+2026.07.29
+---
+
+1교시: 복습, moveit node class 작성  \
+2교시: moveit srdf 수정   \
+3교시: moveit RobotState 로 매니퓰레이터 제어  \
+4교시: moveit rviz2 scence object 추가 및 planning scene 적용  \
+5교시: moveit scene monitor 로 scene object 추가 및 planning scene 적용  \
+6교시: wall 추가 해서 충돌 회피 경로 계획 실습  \
+7교시: moveit pick and place 실습(attachment object 활용)  \
+8교시: moveit pick and place 실습(자세 수정 및 디버깅)
+
+
+---
+2026.07.30
+---
+
+
 
