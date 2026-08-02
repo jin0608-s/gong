@@ -1,0 +1,115 @@
+ROS와 비전처리를 활용한 로봇팔 제어
+
+2026-07-20 (1일차)
+교재 범위: p.123 ~ p.200
+
+개발 환경: Windows 11, WSL2 (Ubuntu 24.04), ROS 2 Jazzy, VS Code
+
+1. 개발 환경 구성
+1.1 WSL 및 Linux 환경 설정
+Windows에서 Ubuntu 24.04 환경을 구축하고, GUI 프로그램 실행을 위해 x11-apps를 설치합니다.
+
+# Ubuntu 24.04 설치
+$ wsl --install -d Ubuntu-24.04
+
+# GUI 실행 확인용 xeyes 설치 및 실행
+$ sudo apt install x11-apps
+$ xeyes
+
+1.2 GitHub 및 VS Code 연동
+GitHub 리포지토리를 복제하고 VS Code의 Remote - WSL 확장 기능을 사용해 개발 환경을 연결합니다.
+# Repository 복제
+$ git clone <본인의 GitHub 저장소 주소>
+
+작업 프로세스: 수정 내용 작성 ➡️ VS Code 내 Source Control 메뉴를 통해 Commit & Sync 진행하여 원격 저장소 업데이트
+
+1.3 ROS 2 환경 설정
+.bashrc 파일에 ROS 2 환경 변수를 등록하여 터미널 실행 시 자동 적용 및 Tab 자동완성 기능을 활성화합니다.
+$ source /opt/ros/jazzy/setup.bash
+
+2. ROS 2 핵심 개념 및 Turtlesim 실습
+ROS 2에서 별도의 명시가 없다면 기본 단위는 길이: m(미터), 각도: rad(라디안)을 사용합니다.
+
+2.1 노드(Node) 실행 및 관리
+# turtlesim 기본 노드 실행
+$ ros2 run turtlesim turtlesim_node
+
+# 리맵핑(Remap)을 통해 노드 이름을 변경하여 실행
+$ ros2 run turtlesim turtlesim_node --ros-args --remap __node:=my_turtle
+
+# 실행 중인 노드 목록 및 상세 정보 확인
+$ ros2 node list
+$ ros2 node info /turtlesim
+
+2.2 토픽(Topic) 통신 방식
+개념: 데이터를 단방향으로 연속해서 흘려보내는 실시간 스트리밍 방식의 통신
+
+방향성: 거북이가 바라보는 앞쪽이 linear.x 축의 + 방향, 반시계 방향이 angular.z 축의 + 방향입니다.
+
+# 키보드 조종 노드 실행
+$ ros2 run turtlesim turtle_teleop_key
+
+# 토픽 목록 및 실시간 데이터 모니터터링
+$ ros2 topic list
+$ ros2 topic echo /turtle1/cmd_vel
+
+# CLI를 통한 토픽 직접 발행 (1초에 한 번씩 원 구동 명령 전달)
+$ ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
+
+2.3 서비스(Service) 통신 방식
+개념: 필요할 때 요청(Request)하고 한 번 응답(Response)받는 즉각적인 양방향 통신
+# 서비스 목록 확인
+$ ros2 service list
+
+# 화면 청소(clear) 서비스 호출
+$ ros2 service call /clear std_srvs/srv/Empty {}
+
+# 새로운 거북이 생성(spawn) 서비스 호출
+$ ros2 service call /spawn turtlesim/srv/Spawn "{x: 2.0, y: 2.0, theta: 0.0, name: 'my_turtle'}"
+
+2.4 액션(Action) 통신 방식
+개념: 서비스와 유사하지만, 목표(Goal) 달성까지 시간이 걸리는 동적 작업에 적합하며 중간 피드백을 제공하는 통신
+
+# 액션 인터페이스 구조 확인
+$ ros2 interface proto turtlesim/action/RotateAbsolute
+
+# 거북이를 절대 각도 1.57 rad(약 90도, 12시 방향)로 회전 요청
+$ ros2 action send_goal /turtle1/rotate_absolute turtlesim/action/RotateAbsolute "{theta: 1.57}"
+
+⚠️ 주의: Action은 rqt GUI 툴을 통해 발행할 수 없습니다.
+
+2.5 GUI 분석 툴 (rqt)
+rqt_graph: 실행 중인 노드와 토픽 간의 연결 관계를 시각적으로 파악하기 용이 (/turtle_teleop ➡️ /turtle1/cmd_vel ➡️ /turtlesim).
+
+Plugins 사용: Plugins -> Topics -> Message Publisher 및 Plugins -> Services -> Service Caller를 통해 GUI 환경에서 통신 제어 가능.
+
+3. ROS 2 파라미터(Parameter) 설정
+노드 내부의 설정값(예: 배경색)을 동적으로 변경하고 파일로 관리합니다.
+
+# 파라미터 목록 확인
+$ ros2 param list /turtlesim
+
+# 현재 배경색(RGB) 파라미터 값 가져오기 (기본: 파란색 계열)
+$ ros2 param get /turtlesim background_r
+$ ros2 param get /turtlesim background_g
+$ ros2 param get /turtlesim background_b
+
+# 파라미터 값 변경 (어두운 회색 계열로 변경)
+$ ros2 param set /turtlesim background_r 69
+$ ros2 param set /turtlesim background_g 69
+$ ros2 param set /turtlesim background_b 69
+
+# 변경된 파라미터 상태를 YAML 파일로 저장(Dump)
+$ ros2 param dump /turtlesim > ./turtlesim.yaml
+
+# 저장된 YAML 파일을 불러오며 노드 실행 (--params-file 옵션 사용)
+$ ros2 run turtlesim turtlesim_node --ros-args --params-file ./turtlesim.yaml
+
+### 💡 통신 방식 요약
+
+| 통신 방식 | 특징 | 주요 명령어 |
+| :--- | :--- | :--- |
+| **Topic** | 실시간 단방향 데이터 스트리밍 (연속적) | `ros2 topic pub` / `ros2 topic echo` |
+| **Service** | 즉각적인 요청과 일회성 응답 (동기적) | `ros2 service call` |
+| **Action** | 시간이 걸리는 목표 수행 + 피드백 제공 | `ros2 action send_goal` |
+| **Parameter** | 노드 내 설정값 관리 및 동적 변경 | `ros2 param set` / `ros2 param dump` |
