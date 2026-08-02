@@ -125,5 +125,27 @@ ROS와 비전처리를 활용한 로봇팔 제어
 2026.07.30
 ---
 
+1교시: 복습  \
+2교시: moveit mini project - scene monitor 벽 사이 planning scene 적용  \
+3교시: moveit mini project - scene monitor 벽 사이 planning scene 적용  \
+4교시: thread class 작성 - moveitpy node 융합 class  \
+5교시: gazebo harmonic DOC 분석  \
+6교시: teleop_keyboard 로 gazebo harmonic 제어 실습  \
+7교시: gazebo 에 world 추가 및 수정  \
+8교시: gazebo 에 모델 등록 하고 사용하기 aruco_box 생성
 
+
+---
+2026.07.31
+---
+
+1교시: 복습 gazebo spawn model  \
+2교시: 몸체 모델링 및 gazebo 에 적용  \
+3교시: gazebo plugin gz-sim-diff-drive 적용  \
+4교시: launch 파일 작성 (gz-sim, bridge)  \
+
+
+---
+2026.08.03
+---
 

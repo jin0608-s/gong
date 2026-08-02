@@ -4,7 +4,7 @@ print(cv2.__version__)
 
 dictionary = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_50)
 
-marker_id = 1
+marker_id = 0
 marker_size = 1000
 
 marker = cv2.aruco.drawMarker(
@@ -23,7 +23,7 @@ marker_with_margin = cv2.copyMakeBorder(
     value=255,
 )
 
-output_path = "aruco_1.png"
+output_path = "aruco_0.png"
 
 success = cv2.imwrite(output_path, marker_with_margin)
 
