@@ -153,5 +153,9 @@ ROS와 비전처리를 활용한 로봇팔 제어
 2026.08.03
 ---
 
-1교시: 복습 opencv 설치
-2교시: 영상처리의 이해, ros2 node + opencv
+1교시: 복습 opencv 설치  \
+2교시: 영상처리의 이해, ros2 node + opencv  \
+3교시: imread, imwrite, jpg 압축 저장 image pub sug 구현  \
+4교시: compressed img pub 구현  \
+5교시: BGR2RGB 구현  \
+6교시: camera 영상 처리, mjpg, gstreamer pipeline 구현
