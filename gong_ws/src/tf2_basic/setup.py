@@ -39,6 +39,7 @@ setup(
         ("share/" + package_name + "/data", glob(os.path.join("data", "*.yaml"))),
         ("share/" + package_name + "/models", glob(os.path.join("models", "*.*"))),
         ("share/" + package_name + "/world", glob(os.path.join("world", "*.*"))),
+        ("share/" + package_name + "/camera_opencv", glob(os.path.join("camera_opencv", "*.*"))),
         (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*launch.[pxy][yma]*'))),   #AI 추가
 
     ]

@@ -143,6 +143,10 @@ ROS와 비전처리를 활용한 로봇팔 제어
 2교시: 몸체 모델링 및 gazebo 에 적용  \
 3교시: gazebo plugin gz-sim-diff-drive 적용  \
 4교시: launch 파일 작성 (gz-sim, bridge)  \
+5교시: spawn model 로 gazebo 에 모델 등록 및 제어 실습  \
+6교시: vehicle model 에 카메라 추가 및 ros2 interface bridge 적용  \
+7교시: vehicle model tf 발행 -> rviz2 확인  \
+8교시: manipulator-X 에 카메라 추가 및 ros2 interface bridge 적용
 
 
 ---
