@@ -167,5 +167,8 @@ ROS와 비전처리를 활용한 로봇팔 제어
 2026.08.04
 ---
 
-1교시: 복습  \
-2교시: ellipse, putText  \
+1교시: 복습, ellipse  \
+2교시: event mouse, keyboard 예제  \
+3교시: ros2 event 통합 예제  \
+4교시: mask 연산, bitwise_and, bitwise_or, bitwise_not, copyTo  \
+5교시: reshape, flatten, pixel 연산  \
