@@ -172,3 +172,12 @@ ROS와 비전처리를 활용한 로봇팔 제어
 3교시: ros2 event 통합 예제  \
 4교시: mask 연산, bitwise_and, bitwise_or, bitwise_not, copyTo  \
 5교시: reshape, flatten, pixel 연산  \
+6교시: roi deep-copy  \
+7교시: color space conversion, inrange trackbar 실습  \
+8교시: manipulator-X gazebo 빨간 공 찾기 실습- model 작성, 노드 작성
+
+
+---
+2026.08.05
+---
+
