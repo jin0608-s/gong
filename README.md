@@ -158,4 +158,14 @@ ROS와 비전처리를 활용한 로봇팔 제어
 3교시: imread, imwrite, jpg 압축 저장 image pub sug 구현  \
 4교시: compressed img pub 구현  \
 5교시: BGR2RGB 구현  \
-6교시: camera 영상 처리, mjpg, gstreamer pipeline 구현
+6교시: camera 영상 처리, mjpg, gstreamer pipeline 구현  \
+7교시: draw rectangle, draw line, background  \
+8교시: draw circle
+
+
+---
+2026.08.04
+---
+
+1교시: 복습  \
+2교시: ellipse, putText  \
