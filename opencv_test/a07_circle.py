@@ -28,6 +28,7 @@ def main():
         cv2.imshow("canvas", img)
         if cv2.waitKey(30)  == ord('q'):  # ESC key to exit
             break
+    cv2.destroyAllWindows()
 
 
 if __name__ == "__main__":
