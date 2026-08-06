@@ -35,6 +35,7 @@ setup(
                               "img_aruco_tf_sub= camera_opencv.img_aruco_tf_sub:main",
                               "detect_aruco = camera_opencv.detect_aruco:main",
                               "camera_pub_Canny = camera_opencv.camera_pub_Canny:main",
+                              "match_orb = camera_opencv.match_orb:main",
                               
                              
                              ],

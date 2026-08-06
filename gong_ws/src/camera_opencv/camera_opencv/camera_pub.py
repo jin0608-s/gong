@@ -16,7 +16,7 @@ class Camera_pub(Node):
         self.width = 640
         self.height = 480
         pipeline = (
-            "v4l2src device=/dev/video0 ! "
+            "v4l2src device=/dev/video2 ! "
             f"image/jpeg,width={self.width},height={self.height},framerate=30/1 ! "
             "jpegdec ! "
             "videoconvert ! "
