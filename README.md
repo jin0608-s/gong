@@ -181,3 +181,18 @@ ROS와 비전처리를 활용한 로봇팔 제어
 2026.08.05
 ---
 
+1교시: 복습, affine transform 실습  \
+2교시: opencv affine 제공 편의 기능 resize, rotate, flip  \
+3교시: perspective transform 실습  \
+4교시: aruco marker detection 실습  \
+5교시: ros2 aruco marker detection 실습  \
+6교시: gazebo manipulator-X 에 aruco marker detection 실습  \
+7교시: gazebo manipulator-X 에 aruco marker tf2 발행  \
+8교시: gazebo manipulator-X 에 aruco marker tf2 발행 및 rviz2 확인
+
+
+---
+2026.08.06
+---
+
+

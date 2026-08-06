@@ -76,6 +76,10 @@ setup(
             "moveit_attached = tf2_basic.moveit_attached:main",
             "moveit_mini_project = tf2_basic.moveit_mini_project:main",
             "moveit_class_thread = tf2_basic.moveit_class_thread:main",
+            
+            
+            
+            
                        
             
         ],
