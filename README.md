@@ -195,4 +195,20 @@ ROS와 비전처리를 활용한 로봇팔 제어
 2026.08.06
 ---
 
+1교시: 복습, convolution(filter2D, boxFilter, GaussianBlur, medianBlur, bilateralFilter)  \
+2교시: morphology 실습  \
+3교시: Canny edge detection  \
+4교시: Hough lines, linesP 작성  \
+5교시: precornerdetect, eigencornerdetect 작성  \
+6교시: cornerHarris, goodFeaturesToTrack 작성  \
+7교시: orb, gftt, bfmatcher 작성  \
+8교시: ros2 orb matching 실습
+
+
+---
+2026.08.07
+---
+
+
+
 
