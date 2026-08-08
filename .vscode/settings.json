@@ -12,5 +12,6 @@
     "${workspaceFolder}/gong_ws/install/user_interface/lib/python3.12/site-packages"
   ],
   "python.analysis.stubPath": "${workspaceFolder}/typings",
-  "cmake.sourceDirectory": "/home/boyfriend51/temp/gong/gong_ws/src/user_interface"
+  "cmake.sourceDirectory": "/home/boyfriend51/temp/gong/gong_ws/src/user_interface",
+  "python-envs.defaultEnvManager": "ms-python.python:venv"
 }
